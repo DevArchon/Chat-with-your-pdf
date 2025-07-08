@@ -222,36 +222,6 @@ llm = Ollama(
    - Verify the model is installed: `ollama list`
    - Check the base URL in environment variables
 
-3. **"PDF processing failed"**
-
-   - Ensure the PDF file is not corrupted
-   - Check that the file is actually a PDF
-   - Verify file permissions
-
-4. **"Vector store errors"**
-   - Clear the database using the sidebar button
-   - Check disk space for the `chroma_db` directory
-   - Restart the application
-
-### Performance Tips
-
-- Use smaller chunk sizes for faster processing
-- Choose appropriate embedding models for your use case
-- Monitor memory usage with large PDFs
-- Consider using GPU acceleration for embedding generation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - [LangChain](https://langchain.com/) for the RAG framework
